@@ -72,7 +72,7 @@ if dane_wprowadzajace == 1:
     print(wynik)
     print(f"Dlugosc imienia i nazwiska to: {len(lista_imie[wybor_wizytowki])+len(lista_nazwisko[wybor_wizytowki])}")
 if dane_wprowadzajace == 2:
-    wynik2 = lista_imie[wybor_wizytowki]
+    wynik2 = f"Wybieram numer {lista_telefon[wybor_wizytowki]} i dzwonie do {lista_imie[wybor_wizytowki]} {lista_nazwisko[wybor_wizytowki]}"
     print(wynik2)
     print(f"Dlugosc imienia i nazwiska to: {len(lista_imie[wybor_wizytowki])+len(lista_nazwisko[wybor_wizytowki])}")
     
